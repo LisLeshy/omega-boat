@@ -1,0 +1,62 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    color: var(--primary-text-color);
+        font-family: var(--primary-font), sans-serif;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+}
+
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+// .upper-title {
+//     font-family: 'Titan One';
+//     font-size: 18px;
+//     line-height: 1.17;
+//     text-align: center;
+//     text-transform: uppercase;
+
+//     color: #ffa5ba;
+
+    // @include mq(tablet) {
+    //     font-size: 26px;
+    //     line-height: 1.15;
+    // }
+
+//     @include mq(desktop) {
+//         font-size: 30px;
+//         line-height: 1.13;
+//     }
+// }
+
+// .title {
+//     font-family: 'Titan One';
+//     font-size: 34px;
+//     line-height: 1.15;
+//     text-align: center;
+//     text-transform: uppercase;
+
+//     color: #d41443;
+
+    // @include mq(tablet) {
+    //     font-size: 48px;
+    // }
+
+    // @include mq(desktop) {
+    //     font-size: 58px;
+    //     line-height: 1.14;
+    // }
+// }
