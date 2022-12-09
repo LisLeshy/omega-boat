@@ -1,19 +1,26 @@
 :root {
-    --primary-font: Roboto, sans-serif;
-
+    --font-family-main: Roboto, sans-serif;
     --primary-font-size: 12px;
     --primary-line-height: 1.17;
 
-    --primary-text-color: rgba(255, 255, 255, 1);
-    --secondary-text-color: rgba(84, 84, 84, 1);
-    --button-text-color: #FFFFFF;
-    --footer-text-color: #545454;
-
-    --main-bgc: #E5E5E5;
-    --second-bgc: #F7F7F7;
-
-    --accent-color: #FF6B01;
-    --main-accent-color: #ff6b08;
-    --title-color: #000000;
-    --timing-function: 250ms cubic-bezier(0.38, 0.53, 0.8, 0.71);
+        --title-text-color: #212121;
+            --primery-text-color: #757575;
+            --accent-test-color: #FFFFFF;
+            --accent-color: #2196F3;
+            --hero-buton-hover: #188CE8;
+            --primary-backgound-color: #FFFFFF;
+            --main-backgound-color: #E5E5E5;
+            --team-backgound-color: #F5F4FA;
+            --footer-backgound-color: #2F303A;
+            --heder-logo-color: #000000;
+            --adress-color: rgba(255, 255, 255, 0.6);
+            --border-header-color: #ECECEC;
+            --border-card-color: #EEEEEE;
+            --hero-background-color: #C4C4C4;
+            --icon-backgroun-color: rgba(255, 255, 255, 0.1);
+            --icon-orignal-color: #afb1b8;
+            --gallary-background-color: rgba(0, 0, 0, 0.25);
+            --card-background-color: rgba(33, 150, 243, 0.9);
+            --background-color: rgba(0, 0, 0, 0.2);
+            --transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,0 +1,16 @@
+.button {
+
+    font-family: inherit;
+    border-radius: 4px;
+    border: 0;
+    color: var(--accent-test-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color var(--transform);
+
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        background-color: var(--hero-buton-hover);
+    }
+}

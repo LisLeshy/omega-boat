@@ -1,0 +1,33 @@
+.benifits-article {
+    // display: flex;
+    margin-top: 15px;
+}
+
+.benifits-article__text {
+    display: flex;
+    flex-direction: column;  
+  @include fonts(null, 14px, 1.71, 0.03em);
+}
+
+.benifits-article__text__invisible{
+    display: none;
+    @media screen and (min-width: 768px) {
+            display: block;
+            // margin-left: 88px;
+            //     margin-right: auto;
+        }
+}
+
+.benifits-article__img {
+    display: none;
+    @media screen and(min-width: 768px){
+    display: block;
+    };
+        
+}
+
+.benifits-button{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
