@@ -1,0 +1,64 @@
+.engagement {
+    margin-top: 30px;
+
+}
+
+//  .engagement-list{
+// display: flex;
+// flex-direction: column;
+    
+ 
+    
+// }
+
+.engagement-item{
+  
+position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+
+
+.engagement-description{
+
+&:hover,
+    &:focus {
+        box-shadow:
+            0px 1px 1px rgba(0, 0, 0, 0.12),
+            0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+        opacity: 1;}
+}
+
+
+ .engagement-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+        height: 100%;
+        background: var(--card-background-color);
+        transform: translatey(100%);
+        transition: transform var(--transform);
+    .engagement-description:hover &,
+        .engagement-description:focus & {
+            transform: translatey(0);
+    
+        }
+}
+.engagement-text{
+    position: absolute;
+        top: 0;
+        left: 0;
+       
+   
+}
+
+.engagement-img{
+ margin-left: auto;
+    margin-right: auto;
+}
+// .engagement-subtitle{
+
+// }
