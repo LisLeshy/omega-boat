@@ -1,26 +1,37 @@
-.engagement {
-    margin-top: 30px;
+.engagement-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
 
 }
 
-//  .engagement-list{
-// display: flex;
-// flex-direction: column;
+ .engagement-list{
+    // margin-top: 30px;
+    @media screen and (min-width: 768px) {
+            display: flex;
+                margin: -15px;
+        }
+      
     
- 
-    
-// }
+}
 
-.engagement-item{
-  
-position: relative;
+.engagement-item{   
+    position: relative;
     overflow: hidden;
     margin-top: 15px;
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 4 * 15px) / 2);
+            margin: 15px;
+        }
+    
 }
 
 
 
 .engagement-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 &:hover,
     &:focus {
@@ -59,6 +70,7 @@ position: relative;
  margin-left: auto;
     margin-right: auto;
 }
-// .engagement-subtitle{
-
-// }
+.engagement-subtitle{
+   
+margin-top: 15px;
+}

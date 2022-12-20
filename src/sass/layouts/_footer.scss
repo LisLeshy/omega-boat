@@ -1,29 +1,35 @@
 .footer {
-    // margin-top: 60px;
+   
     background-color: var(--footer-backgound-color);
 }
 
 .footer-container{
-    margin-top: 60px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+        // flex-direction: column;
+        align-items: center;
+    margin-top: 60px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        }
    
 }
 .footer-logo {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+    }
 }
 .footer-adress{
     display: flex;
         flex-direction: column;
         align-items: center;
         
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto; 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     
         @include fonts(null, 14px, 1.71, 0.03em);
         font-style: normal;
@@ -49,10 +55,18 @@
         flex-direction: column;
         align-items: center;
         color: var(--accent-test-color);
-        margin-bottom: 30px;
+        
+        margin-left: auto;
+            margin-right: auto;
+            @media screen and (max-width: 768px) {
+                    margin-bottom: 30px;
+                }
+
 }
 
 .footer-button{
     padding: 10px 29px;
-    margin-bottom: 30px;
+    @media screen and (max-width: 768px) {
+            margin-bottom: 30px;
+        }
 }       
