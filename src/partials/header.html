@@ -1,95 +1,112 @@
 <header class="header">
-    <div class="header-container container">
-         <div class="header-logo">
-                <a class="logo" href="./index.html">
-                    <img class="img-logo img" 
-                    src="./images/logo-omega1.png" 
-                    alt="logo"
-                    width="100"
-                    heigth="80"
-                    loading="lazy"
-                    ></a>
-            </div>
-        <nav class="header-nav">
-           
-            <ul class="header-list list">
-              <li class="header-item"> <a class="header-link" href="./index.html">Home
-              </a>
-              </li>
-              <ul class="header-list list">
-              <li class="header-item"> <a class="header-link" href="">Our products
-              </a>
-              </li>
-              <ul class="header-list list">
-              <li class="header-item"> <a class="header-link" href="">About us
-              </a>
-              </li><ul class="header-list list">
-              <li class="header-item"> <a class="header-link" href="">Contact
-              </a>
-              </li>
-            </ul>
-            
-        </nav>
-         <button
-          class="menu-button--open is-open js-open-menu "
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="mobile-menu__icon" width="40" height="40" aria-label="Переключатель  меню">
-            <use class="mobile-menu__icon--menu" href="./images/sprite.svg#icon-menu_40px"></use>
-          </svg>
-        </button>
+  <div class="header-container container">
+    <div class="header-logo">
+      <a class="logo" href="./index.html">
+        <img
+          class="img-logo img"
+          src="./images/logo-omega1.png"
+          alt="logo"
+          width="150"
+          heigth="120"
+          loading="lazy"
+      /></a>
     </div>
-</header>
- <!-- Мобильное меню -->
-    <div class="mobile-menu js-menu-container  " id="mobile-menu">
-      <button
-        class="menu-button--close is-open js-close-menu"
-        type="button"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
+    <nav class="header-nav">
+      <ul class="header-list list">
+        <li class="header-item">
+          <a class="header-link header-link--current" href="./index.html"
+            >Home
+          </a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="">Our products </a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="">About us </a>
+        </li>
+        <li class="header-item"><a class="header-link" href="">Contact </a></li>
+      </ul>
+    </nav>
+    <button
+      class="menu-button--open is-open js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg
+        class="mobile-menu__icon"
+        width="40"
+        height="40"
+        aria-label="Переключатель  меню"
       >
-        <svg class="mobile-menu__icon" width="40" height="40" aria-label="Переключатель меню">
-          <use class="mobile-menu__icon--close" href="./images/sprite.svg#icon-close_40px"></use>
-        </svg>
-      </button>
-      <ul class="mobile-menu__nav list">
-        <li class="mobile-menu__nav--item">
-          <a class="mobile-menu__nav--link nav__link--active" href="./index.html">Home</a>
-        </li>
-        <li class="mobile-menu__nav--item">
-          <a class="mobile-menu__nav--link" href="">Our products</a>
-        </li>
-        <li class="mobile-menu__nav--item">
-          <a class="mobile-menu__nav--link" href="">About us</a>
-        </li>
-        <li class="mobile-menu__nav--item">
-          <a class="mobile-menu__nav--link" href="">Contact</a>
-        </li>
-      </ul>
-      <ul class="mobile-menu__contacts list">
-        <li class="mobile-menu__contacts--item">
-          <a class="mobile-menu__contacts--tel" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-        <li class="mobile-menu__contacts--item">
-          <a class="mobile-menu__contacts--email" href="malito:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-      <ul class="mobile-menu__socials list">
-        <li class="mobile-menu__socials--item">
-          <a class="mobile-menu__socials--link" href="">Instagram</a>
-        </li>
-        <li class="mobile-menu__socials--item">
-          <a class="mobile-menu__socials--link" href="">Twitter</a>
-        </li>
-        <li class="mobile-menu__socials--item">
-          <a class="mobile-menu__socials--link" href="">Facebook</a>
-        </li>
-        <li class="mobile-menu__socials--item">
-          <a class="mobile-menu__socials--link" href="">LinkedIn</a>
-        </li>
-      </ul>
-    </div>
+        <use
+          class="mobile-menu__icon--menu"
+          href="./images/sprite.svg#icon-menu_40px"
+        ></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<!-- Мобильное меню -->
+<div class="mobile-menu js-menu-container" id="mobile-menu">
+  <button
+    class="menu-button--close is-open js-close-menu"
+    type="button"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg
+      class="mobile-menu__icon"
+      width="40"
+      height="40"
+      aria-label="Переключатель меню"
+    >
+      <use
+        class="mobile-menu__icon--close"
+        href="./images/sprite.svg#icon-close_40px"
+      ></use>
+    </svg>
+  </button>
+  <ul class="mobile-menu__nav list">
+    <li class="mobile-menu__nav--item">
+      <a class="mobile-menu__nav--link nav__link--active" href="./index.html"
+        >Home</a
+      >
+    </li>
+    <li class="mobile-menu__nav--item">
+      <a class="mobile-menu__nav--link" href="">Our products</a>
+    </li>
+    <li class="mobile-menu__nav--item">
+      <a class="mobile-menu__nav--link" href="">About us</a>
+    </li>
+    <li class="mobile-menu__nav--item">
+      <a class="mobile-menu__nav--link" href="">Contact</a>
+    </li>
+  </ul>
+  <ul class="mobile-menu__contacts list">
+    <li class="mobile-menu__contacts--item">
+      <a class="mobile-menu__contacts--tel" href="tel:+380961111111"
+        >+38 096 111 11 11</a
+      >
+    </li>
+    <li class="mobile-menu__contacts--item">
+      <a class="mobile-menu__contacts--email" href="malito:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+    </li>
+  </ul>
+  <ul class="mobile-menu__socials list">
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link" href="">Instagram</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link" href="">Twitter</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link" href="">Facebook</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link" href="">LinkedIn</a>
+    </li>
+  </ul>
+</div>
