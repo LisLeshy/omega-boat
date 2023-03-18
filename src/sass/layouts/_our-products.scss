@@ -14,7 +14,7 @@
 }
 
 .our-products-table{
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         display: none;
        
     }
@@ -29,7 +29,17 @@
     margin: 10px;
     margin-left: 0;
 }
-// .subtitle {
-//     text-align: center;
-
+// .our-product-list{
+//     display: flex;
 // }
+.our-product-item{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.subtitle {
+    margin-top: 30px;
+    text-align: center;
+
+}
