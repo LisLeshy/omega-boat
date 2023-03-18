@@ -1,0 +1,35 @@
+.our-products-contaner {
+    text-align: center;
+    
+}
+.our-products-article{
+    display: flex;
+    flex-wrap: wrap;
+    // text-align: justify;
+
+}
+
+.our-product-text{
+    text-align: justify;
+}
+
+.our-products-table{
+    @media screen and (max-width: 768px) {
+        display: none;
+       
+    }
+}
+.our-products__img{
+    float: right;
+    margin: 10px;
+    margin-right: 0;
+}
+.our-products__imgl{
+    float: left;
+    margin: 10px;
+    margin-left: 0;
+}
+// .subtitle {
+//     text-align: center;
+
+// }
